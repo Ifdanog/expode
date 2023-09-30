@@ -2,7 +2,7 @@ import Logo from '../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <header className='flex justify-between w-full py-2 h-14 max-w-[1280px] mx-auto bg-white'>
+    <header className='flex justify-between w-full py-2 h-14 xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto bg-white'>
         <div className='flex gap-10'>
         <img src={Logo} alt="" className='h-10' />
         <nav className='flex'>

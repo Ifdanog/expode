@@ -8,70 +8,70 @@ import Youtube from '../assets/Youtube.svg'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#F7F7F7]'>
-      <div className="max-w-[1280px] mx-auto grid grid-cols-4 gap-10">
+    <footer className='bg-[#F7F7F7] py-20'>
+      <div className="xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto grid grid-cols-4 gap-10">
         <div>
           <h3 className='font-bold text-gray-800'>Top Instruments</h3>
-          <ul className='text-gray-500'>
-            <li><a>Bitcoin (BTC)</a></li>
-            <li><a>Ethereum (ETH)</a></li>
-            <li><a>Shiba (in Millions)</a></li>
-            <li><a>Tesla</a></li>
-            <li><a>Apple</a></li>
-            <li><a>Nio</a></li>
+          <ul className='text-gray-500 text-xs'>
+            <li className='leading-7'><a>Bitcoin (BTC)</a></li>
+            <li className='leading-7'><a>Ethereum (ETH)</a></li>
+            <li className='leading-7'><a>Shiba (in Millions)</a></li>
+            <li className='leading-7'><a>Tesla</a></li>
+            <li className='leading-7'><a>Apple</a></li>
+            <li className='leading-7'><a>Nio</a></li>
           </ul>
         </div>
         <div>
           <h3 className='font-bold text-gray-800'>Support</h3>
-          <ul className='text-gray-500'>
-            <li><a>Help Center</a></li>
-            <li><a>How to deposit</a></li>
-            <li><a>How to withdraw</a></li>
-            <li><a>How to open an account</a></li>
-            <li><a>How to verify your account</a></li>
-            <li><a>Caent vulnerability</a></li>
+          <ul className='text-gray-500 text-xs'>
+            <li className='leading-7'><a>Help Center</a></li>
+            <li className='leading-7'><a>How to deposit</a></li>
+            <li className='leading-7'><a>How to withdraw</a></li>
+            <li className='leading-7'><a>How to open an account</a></li>
+            <li className='leading-7'><a>How to verify your account</a></li>
+            <li className='leading-7'><a>Caent vulnerability</a></li>
           </ul>
         </div><div>
           <h3 className='font-bold text-gray-800'>Learn more</h3>
-          <ul className='text-gray-500'>
-            <li><a>How copy trading works?</a></li>
-            <li><a>Responsible trading?</a></li>
-            <li><a>What is leverage & margin?</a></li>
-            <li><a>Buy and sell explained</a></li>
-            <li><a>Market research</a></li>
-            <li><a>Tax report</a></li>
+          <ul className='text-gray-500 text-xs'>
+            <li className='leading-7'><a>How copy trading works?</a></li>
+            <li className='leading-7'><a>Responsible trading?</a></li>
+            <li className='leading-7'><a>What is leverage & margin?</a></li>
+            <li className='leading-7'><a>Buy and sell explained</a></li>
+            <li className='leading-7'><a>Market research</a></li>
+            <li className='leading-7'><a>Tax report</a></li>
           </ul>
         </div>
         <div>
           <h3 className='font-bold text-gray-800'>About Us</h3>
-          <ul className='text-gray-500'>
-            <li><a>Why choose Expode</a></li>
-            <li><a>Expode reviews</a></li>
-            <li><a>Careers</a></li>
-            <li><a>Our offices</a></li>
-            <li><a>Accessbiity</a></li>
-            <li><a>Imprint</a></li>
+          <ul className='text-gray-500 text-xs'>
+            <li className='leading-7'><a>Why choose Expode</a></li>
+            <li className='leading-7'><a>Expode reviews</a></li>
+            <li className='leading-7'><a>Careers</a></li>
+            <li className='leading-7'><a>Our offices</a></li>
+            <li className='leading-7'><a>Accessbiity</a></li>
+            <li className='leading-7'><a>Imprint</a></li>
           </ul>
         </div>
         <div>
           <h3 className='font-bold text-gray-800'>Privacy and Regulation</h3>
-          <ul className='text-gray-500'>
-            <li><a>Expode Cookie Policy</a></li>
-            <li><a>Privacy Policy</a></li>
-            <li><a>Regulation & license</a></li>
-            <li><a>Genral Risk Disclosure</a></li>
-            <li><a>Terms & Conditions</a></li>
-            <li><a>Key information Documents</a></li>
+          <ul className='text-gray-500 text-xs'>
+            <li className='leading-7'><a>Expode Cookie Policy</a></li>
+            <li className='leading-7'><a>Privacy Policy</a></li>
+            <li className='leading-7'><a>Regulation & license</a></li>
+            <li className='leading-7'><a>Genral Risk Disclosure</a></li>
+            <li className='leading-7'><a>Terms & Conditions</a></li>
+            <li className='leading-7'><a>Key information Documents</a></li>
           </ul>
         </div>
         <div>
           <h3 className='font-bold text-gray-800'>Partner and Promotions</h3>
-          <ul className='text-gray-500'>
-            <li><a>Invite a friend</a></li>
-            <li><a>Affiaate Program</a></li>
-            <li><a>Expode Club</a></li>
-            <li><a>Investment insurance</a></li>
-            <li><a>Partner smart portfolios</a></li>
+          <ul className='text-gray-500 text-xs'>
+            <li className='leading-7'><a>Invite a friend</a></li>
+            <li className='leading-7'><a>Affiaate Program</a></li>
+            <li className='leading-7'><a>Expode Club</a></li>
+            <li className='leading-7'><a>Investment insurance</a></li>
+            <li className='leading-7'><a>Partner smart portfolios</a></li>
           </ul>
         </div>
         <div>
@@ -84,17 +84,17 @@ const Footer = () => {
       </div>
       <hr className='my-14' />
       <div className="w-[470px] flex gap-8 text-center mx-auto">
-        <h2 className='font-bold text-xl leading-10'>Follow Us</h2>
+        <h2 className='font-bold leading-10 borna'>Follow Us</h2>
         <div className="flex gap-8">
-          <img src={Facebook} alt="" className='h-10' />
-          <img src={Twitter} alt="" className='h-10' />
-          <img src={Instagram} alt="" className='h-10' />
-          <img src={LinkedIn} alt="" className='h-10' />
-          <img src={Youtube} alt="" className='h-10' />
+          <img src={Facebook} alt="" />
+          <img src={Twitter} alt="" />
+          <img src={Instagram} alt="" />
+          <img src={LinkedIn} alt="" />
+          <img src={Youtube} alt="" />
         </div>
       </div>
 
-      <div className='text-gray-500 pt-20 max-w-[1280px] mx-auto'>
+      <div className='text-gray-500 pt-20 xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto text-xs leading-7'>
         <p>Expode Ltd., a Financial Services Company authorised and regulated by the Cyprus Securities Exchange Commission (CySEC) under the license # 109/10. Registered in Cyprus under Company No. HE 200585. Registered Office: 4 Profiti Ilia Str., Kanika Business Centre, 7th floor, Germasogeia, 4046, Limassol, Cyprus.Expode (UK) Ltd, a Financial Services Company authorised and regulated by the Financial Conduct Authority (FCA) under the license FRN 583263.Registered Office: 24th floor, One Canada Square, Canary Wharf, London E14 5AB.Expode AUS Capital Limited is authorised by the Australian Securities and Investments Commission (ASIC) to provide financial services under Australian Financial Services License 491139.Registered Office: Level 3, 60 Castlereagh Street, Sydney NSW 2000, Australia.Expode (Seychelles) Ltd. is licenced by the Financial Services Authority Seychelles ("FSAS") to provide broker-dealer services under the Securities Act 2007 License #SD076Registered Office: Expode Suites, S45 2nd Floor, Espace Building, Victoria, Seychelles.</p>
 
         <p className='my-10'>Past performance is not an indication of future results <br />
@@ -105,7 +105,7 @@ const Footer = () => {
 
       <hr className='my-14' />
 
-      <p className='text-gray-500 text-center'>Copyright &copy; 2006-2023 Expode. All rights reserved.</p>
+      <p className='text-gray-500 text-xs text-center'>Copyright &copy; 2006-2023 Expode. All rights reserved.</p>
     </footer>
   )
 }
