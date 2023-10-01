@@ -2,7 +2,7 @@ import React from 'react'
 
 const GlobalMarkets = () => {
   return (
-    <div className="bg-[#F7F7F7] py-20">
+    <div className="bg-[#F7F7F7] py-20 rounded-2xl">
         <div className='flex justify-between w-full xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto'>
             <div className='flex'>
                 <div>
