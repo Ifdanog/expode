@@ -8,8 +8,8 @@ import Youtube from '../assets/Youtube.svg'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#F7F7F7] py-20 rounded-2xl'>
-      <div className="xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto grid grid-cols-4 gap-10">
+    <footer className='bg-[#F7F7F7] px-4 xl:px-0 py-10 md:pt-20 pb-10 rounded-none md:rounded-2xl'>
+      <div className="xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 ">
         <div>
           <h3 className='font-bold text-gray-800'>Top Instruments</h3>
           <ul className='text-[#5A5A5D] text-xs'>
@@ -77,20 +77,20 @@ const Footer = () => {
         <div>
           <h3 className='font-bold text-gray-800'>Download our App</h3>
           <div className='flex gap-6'>
-            <img src={Apple} alt="" />
-            <img src={GooglePlay} alt="" />
+            <img src={Apple} alt="" className='w-36 md:w-48 cursor-pointer' />
+            <img src={GooglePlay} alt="" className='w-36 md:w-48 cursor-pointer' />
           </div>
         </div>
       </div>
       <hr className='my-14' />
       <div className="w-[470px] flex gap-8 text-center mx-auto">
         <h2 className='font-bold leading-10 borna'>Follow Us</h2>
-        <div className="flex gap-8">
-          <img src={Facebook} alt="" />
-          <img src={Twitter} alt="" />
-          <img src={Instagram} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Youtube} alt="" />
+        <div className="flex flex-wrap gap-8">
+          <img src={Facebook} alt="" className='cursor-pointer' />
+          <img src={Twitter} alt="" className='cursor-pointer' />
+          <img src={Instagram} alt="" className='cursor-pointer' />
+          <img src={LinkedIn} alt="" className='cursor-pointer' />
+          <img src={Youtube} alt="" className='cursor-pointer' />
         </div>
       </div>
 

@@ -11,7 +11,7 @@ const Sponsor = () => {
   return (
     <div className='w-full py-20'>
       <h1 className='borna text-4xl text-center py-10'>Sponsor of your Favorite teams</h1>
-      <div className="flex justify-between xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto bg-white">
+      <div className="flex flex-wrap justify-between xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto bg-white">
         <img src={Logo8} alt="" />
         <img src={Logo7} alt="" />
         <img src={Logo1} alt="" />

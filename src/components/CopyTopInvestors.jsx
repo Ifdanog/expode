@@ -1,14 +1,15 @@
 import Copy from '../assets/Group 3.png'
 import ArrowRight from '../assets/arrow-right.svg'
+
 const CopyTopInvestors = () => {
   return (
-    <div className="bg-[#F2F7F7] py-48 rounded-2xl">
-        <div className='flex justify-between w-full xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto'>
-            <div className='w-[40%]'>
+    <div className="bg-[#F2F7F7] py-10 px-4 lg:px-0 md:py-48 rounded-none md:rounded-2xl">
+        <div className='block md:flex justify-between w-full xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto'>
+            <div className='md:w-[40%] text-center md:text-left'>
                 <h3 className='borna text-2xl font-semibold'>
                     Copy top investors
                 </h3>
-                <h4 className='w-[55%]'>
+                <h4 className='w-[55%] mx-auto md:mx-0'>
                     Your shortcut to success in the financial markets.
                 </h4>
                 <p className='text-[#5A5A5D] text-sm py-6'>
@@ -21,7 +22,7 @@ const CopyTopInvestors = () => {
                 </button>
 
             </div>
-            <div className='w-[50%]'>
+            <div className='w-[90%] mx-auto md:w-[50%] mt-10 md:mt-0'>
                 <img src={Copy} alt="" />
             </div>
         </div>
