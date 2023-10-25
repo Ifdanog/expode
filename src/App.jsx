@@ -6,12 +6,14 @@ import GlobalMarkets from "./components/GlobalMarkets";
 import TradeOnMobile from "./components/TradeOnMobile";
 import CopyTopInvestors from "./components/CopyTopInvestors";
 import Sponsor from "./components/Sponsor";
+import Hero from "./components/Hero";
 
 function App() {
 
   return (
     <div className="px-0 md:px-4">
       <Navbar />
+      <Hero />
       <Features />
       <Services />
       <GlobalMarkets />
