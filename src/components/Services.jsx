@@ -7,7 +7,7 @@ const Services = () => {
             <h1 className='text-2xl borna'>One service, all platforms</h1>
             <p className='text-[#5A5A5D] text-xs py-6'>We're proud to offer you unified experience - one service, availableon all platforms. Whether you're on your desktop, smartphone, or tablet, we've got you covered.</p>
         </div>
-        <div className="w-[60%] grid grid-cols-2 gap-x-[5rem] gap-y-[4rem] mx-auto">
+        <div className="w-[60%] grid grid-cols-1 md:grid-cols-2 gap-x-[5rem] gap-y-[4rem] mx-auto">
             <div>
                 <span className='text-xs'><b>Real-Time Market.</b>Data Access up-to-the-minute market data. live price quotes, and in-depth charts to make informed decisions.</span>
             </div>

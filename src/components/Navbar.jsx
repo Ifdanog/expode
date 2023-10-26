@@ -39,7 +39,7 @@ const Navbar = () => {
         </nav>
 
         {showNav && (
-            <nav className='absolute right-0 top-14 w-[50%] h-screen pr-4 pl-14 py-4 text-white bg-black z-50'>
+            <nav className='absolute right-0 top-14 w-[70%] h-screen pr-4 pl-14 py-4 text-white bg-black z-50'>
             <ul className=''>
                 <li>
                     <a href=""  className='leading-10'>Markets</a>
