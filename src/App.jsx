@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Features from "./components/Features";
@@ -8,10 +9,19 @@ import CopyTopInvestors from "./components/CopyTopInvestors";
 import Sponsor from "./components/Sponsor";
 import Hero from "./components/Hero";
 
-function App() {
+function App() {  
+ useEffect(() => {
+    const cursor = document.querySelector('.custom-cursor');
+
+    document.addEventListener('mousemove', (e) => {
+      cursor.style.left = `${e.pageX}px`;
+      cursor.style.top = `${e.pageY}px`;
+    });
+  }, []);
 
   return (
     <div className="px-0 md:px-4">
+      <div className="custom-cursor"></div>
       <Navbar />
       <Hero />
       <Features />
