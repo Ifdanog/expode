@@ -20,7 +20,7 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* <CoinCanvas /> */}
+            <CoinCanvas />
         </div>
     </div>
   )
