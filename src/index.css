@@ -20,43 +20,37 @@
 .borna {
     font-family: 'Borna', sans-serif;
 }
+/* Cursor.css */
 
-.video-container {
-    backdrop-filter: blur(50px)
+.relative-container {
+  position: absolute;
+  width: 100%; /* Set a width for the container */
+  height: 945%; /* Set a height for the container */
 }
 
-.video-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #333; 
-    z-index: -1;
+.ripple-container {
+  position: absolute;
+  overflow: hidden;
+  width: 100%; /* Set a width for the ripple container */
+  height: 100%; /* Set a height for the ripple container */
+  top: 0;
+  left: 0;
 }
 
-@keyframes example {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.5);
-    }
-    100% {
-      transform: scale(1);
-    }
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(218, 218, 218, 0.5);
+  transform: scale(0.1);
+  animation: rippleEffect 1s linear infinite;
+  z-index: 1000;
+}
+
+@keyframes rippleEffect {
+  to {
+    transform: scale(2);
+    opacity: 0;
   }
-  
-  .custom-cursor {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #000;
-    border-radius: 50%;
-    pointer-events: none;
-    mix-blend-mode: difference;
-    animation: example 1s infinite;
-    z-index: 10000;
-  }
-  
+}
