@@ -54,3 +54,26 @@
     opacity: 0;
   }
 }
+
+.bg-register {
+  background-image: url('../src/assets/register-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ic-1,
+.ic2-1,
+.ic3-1 {
+  fill: #0057ff;
+}
+
+.ic-2,
+.ic2-3,
+.ic3-3 {
+  fill: #e1e2f3;
+}
+
+.ic2-2,
+.ic3-2 {
+  fill: #fff;
+}

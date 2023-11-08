@@ -74,7 +74,6 @@ function App() {
       <TradeOnMobile />
       <GlobalMarkets />
       <CopyTopInvestors />
-      <Sponsor />
       <Footer/>
     </div>
   )
