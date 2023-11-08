@@ -25,7 +25,7 @@
 .relative-container {
   position: absolute;
   width: 100%; /* Set a width for the container */
-  height: 945%; /* Set a height for the container */
+  height: 600%; /* Set a height for the container */
 }
 
 .ripple-container {

@@ -2,7 +2,7 @@ import Copy from '../assets/Group 3.png'
 
 const CopyTopInvestors = () => {
   return (
-    <div className="w-full h-full lg:h-screen bg-register py-10 px-20 flex flex-col md:flex-row items-center">
+    <div className="w-full h-full lg:h-screen bg-register py-10 px-10 md:px-20 flex flex-col md:flex-row items-center">
         <div className="flex flex-col md:flex-row gap-10 md:gap-0 items-center">
             <div className="flex-1 justify-center items-center">
                 <div className="text-white text-center md:text-left">

@@ -1,8 +1,13 @@
 const Features = () => {
   return (
     <div className='py-20'>
-            <p className='w-[10%] text-center mx-auto bg-[#f8f8f8] text-xs py-6 text-[#0057ff] font-semibold tracking-widest'>WHY EXPODE</p>
-        <div className="w-[80%] md:w-[4 0%] mx-auto text-center">
+        <div className="flex justify-center items-center">
+            <div className="text-center mx-auto relative" style={{ maxWidth: '90%' }}>
+                <div className="absolute inset-0 bg-[#f8f8f8] z-0"></div>
+                    <p className='relative z-1 text-xs p-4 text-[#0057ff] font-semibold tracking-widest'>WHY EXPODE</p>
+                </div>
+            </div>
+        <div className="w-[80%] md:w-[40%] mx-auto text-center">
             <h1 className='text-2xl md:text-4xl inter font-semibold py-4'>Elevate Your Trading Experience</h1>
         </div>
         <div className="w-3/4 md:w-full mx-auto flex flex-col md:flex-row gap-6">
@@ -22,7 +27,7 @@ const Features = () => {
             <div className="bg-[#f8f8f8] px-4 py-10">
                 <div>
                 <div className="text-center">
-                        <span className='w-20 h-20 inline-flex items-center justify-center mb-10'>
+                        <span className='w-24 h-24 inline-flex items-center justify-center mb-10'>
                             <svg viewBox="0 0 56.06 59.18"><g><path class="ic-2" d="m3.12,17.54v37.61c0,1.92,1.51,3.43,3.43,3.43h42.34c1.92,0,3.43-1.51,3.43-3.43V17.54H3.12Zm44.16,35.89H8.17v-30.85h39.12v30.85Z"></path><rect class="ic-2" x="27.12" y="41.54" width="16.43" height="5.04"></rect><rect class="ic-2" x="27.12" y="35.19" width="16.43" height="3.12"></rect><rect class="ic-2" x="12" y="26.42" width="31.56" height="5.65"></rect><rect class="ic-2" x="12" y="35.19" width="11.39" height="11.39"></rect></g><g><path class="ic-1" d="m55.15,8.77c-.5,0-.91.41-.91.91s.41.91.91.91.91-.41.91-.91-.41-.91-.91-.91Z"></path><path class="ic-1" d="m36.2,5.55c.5,0,.91-.41.91-.91s-.41-.91-.91-.91-.91.41-.91.91.41.91.91.91Z"></path><path class="ic-1" d="m24.9,8.07c.5,0,.91-.41.91-.91s-.41-.91-.91-.91-.91.41-.91.91.41.91.91.91Z"></path><path class="ic-1" d="m18.55,4.34c.5,0,.91-.41.91-.91s-.41-.91-.91-.91-.91.41-.91.91.41.91.91.91Z"></path><path class="ic-1" d="m15.73,12.5c-.71,0-1.31.61-1.31,1.31s.61,1.31,1.31,1.31,1.31-.61,1.31-1.31-.61-1.31-1.31-1.31Z"></path><path class="ic-1" d="m12,12.5c-.71,0-1.31.61-1.31,1.31s.61,1.31,1.31,1.31,1.31-.61,1.31-1.31-.61-1.31-1.31-1.31Z"></path><path class="ic-1" d="m8.17,12.5c-.71,0-1.31.61-1.31,1.31s.61,1.31,1.31,1.31,1.31-.61,1.31-1.31-.61-1.31-1.31-1.31Z"></path><path class="ic-1" d="m.91,8.77c-.5,0-.91.41-.91.91s.41.91.91.91.91-.41.91-.91-.41-.91-.91-.91Z"></path><path class="ic-1" d="m10.08,7.46c1.41,0,2.52-1.11,2.52-2.52s-1.11-2.52-2.52-2.52-2.52,1.11-2.52,2.52,1.11,2.52,2.52,2.52Zm0-3.73c.71,0,1.21.5,1.31,1.31,0,.71-.6,1.31-1.31,1.31s-1.31-.61-1.31-1.31.6-1.31,1.31-1.31Z"></path><path class="ic-1" d="m45.07,6.86c1.92,0,3.43-1.51,3.43-3.43s-1.51-3.43-3.43-3.43-3.43,1.51-3.43,3.43,1.51,3.43,3.43,3.43Zm0-5.65c1.21,0,2.22,1.01,2.22,2.22s-1.01,2.22-2.22,2.22-2.22-1.01-2.22-2.22,1.01-2.22,2.22-2.22Z"></path><path class="ic-1" d="m48.9,9.38H6.55c-2.22,0-4.03,1.81-4.03,4.03v41.74c0,2.22,1.81,4.03,4.03,4.03h42.34c2.22,0,4.03-1.81,4.03-4.03V13.41c0-2.22-1.82-4.03-4.03-4.03Zm-25,1.21h25c1.54,0,2.7,1.2,2.8,2.62h-27.81v-2.62ZM3.73,13.51c0-1.61,1.31-2.82,2.82-2.82v-.1h16.13v6.45H3.73v-3.53Zm47.99,41.74c0,1.61-1.31,2.82-2.82,2.82H6.55c-1.61,0-2.82-1.31-2.82-2.82V18.25h47.99v37Zm0-38.21h-27.83v-2.62h27.83v2.62Z"></path><path class="ic-1" d="m8.17,54.14h39.12c.3,0,.61-.3.61-.71v-30.85c0-.3-.3-.6-.61-.6H8.17c-.3,0-.6.3-.6.6v30.95c0,.3.3.6.6.6Zm.61-30.85h37.81v29.54H8.77v-29.54Z"></path><path class="ic-1" d="m43.55,25.81H12c-.3,0-.61.3-.61.61v5.65c0,.3.3.61.61.61h31.46c.4,0,.6-.3.71-.61v-5.65c0-.3-.3-.61-.61-.61Zm-.71,5.65H12.6v-4.44h30.25v4.44Z"></path><path class="ic-1" d="m23.39,34.58h-11.39c-.3,0-.61.3-.61.61v11.39c0,.3.3.6.61.6h11.29c.4,0,.6-.3.71-.6v-11.39c0-.3-.3-.61-.6-.61Zm-.71,11.39h-10.08v-10.08h10.08v10.08Z"></path><path class="ic-1" d="m43.55,34.68h-16.43c-.3,0-.61.3-.61.61v3.12c0,.3.3.61.61.61h16.33c.4,0,.6-.3.71-.61v-3.12c0-.3-.3-.61-.61-.61Zm-.71,3.03h-15.12v-1.92h15.12v1.92Z"></path><path class="ic-1" d="m43.55,40.93h-16.43c-.3,0-.61.3-.61.61v5.04c0,.3.3.6.61.6h16.33c.4,0,.6-.3.71-.6v-5.04c0-.3-.3-.61-.61-.61Zm-.71,5.04h-15.12v-3.83h15.12v3.83Z"></path></g></svg>
                         </span>
                     </div>

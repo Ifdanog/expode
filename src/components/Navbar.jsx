@@ -5,7 +5,7 @@ const Navbar = () => {
     const [ showNav, setShowNav ] = useState(false)
 
   return (
-    <header className='flex justify-between w-full py-6 px-20 h-24 items-center mx-auto bg-white gap-10 z-10 fixed'>
+    <header className='flex justify-between w-full py-6 px-10 md:px-20 h-24 items-center mx-auto bg-white gap-10 z-10 fixed'>
         <img src={Logo} alt="" className='h-10' />
         <nav className='hidden md:flex justify-between items-center w-full h-full'>
             <ul className='flex gap-4'>
