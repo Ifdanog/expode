@@ -2,9 +2,9 @@
 const Services = () => {
   return (
     <div>
-        <div className="flex py-20">
+        <div className="flex flex-col md:flex-row py-20">
             <div className="flex-1"></div>
-            <div className="flex-1">
+            <div className="w-4/5 md:w-full mx-auto flex-1">
                 <p className='text-center md:text-left mx-auto bg-[#f8f8f8] text-sm py-6 text-[#0057ff] font-semibold tracking-widest'>EXPODE ADVANTAGE</p>
                 <h1 className='text-4xl inter font-semibold py-4'>Empowering Traders for Success.</h1>
                 <p className="text-xl pb-4">

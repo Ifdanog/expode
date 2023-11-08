@@ -12,7 +12,7 @@ const Footer = () => {
         <p>CFD trading is a high-risk investment process and is not suitable for all investors. All information provided on this website is for general purposes only and has been prepared without taking into account your personal objectives, financial situation or individual needs. Before deciding to trade CFDs offered through expode.com, you should carefully consider your objectives, financial situation, needs and level of experience, and should consider seeking independent professional advice. By trading, you may incur losses that include part or all of your invested capital, so you should not trade with capital that you cannot afford to lose. You should be aware of all the risks associated with margin trading. We highly recommend reading the full text.</p>
       </div>
 
-      <div className='flex xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto justify-between mt-10'>
+      <div className='flex flex-wrap gap-6 md:gap-0 xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto justify-between mt-10'>
         <p className=''>Copyright &copy; 2023 Expode</p>
         <div className='flex gap-3'>
           <img src={Facebook} alt="" className='h-6' />

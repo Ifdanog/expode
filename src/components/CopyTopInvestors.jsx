@@ -2,10 +2,10 @@ import Copy from '../assets/Group 3.png'
 
 const CopyTopInvestors = () => {
   return (
-    <div className="w-full h-screen bg-register py-10 px-20 flex items-center">
-        <div className="flex items-center">
+    <div className="w-full h-full lg:h-screen bg-register py-10 px-20 flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-0 items-center">
             <div className="flex-1 justify-center items-center">
-                <div className="text-white">
+                <div className="text-white text-center md:text-left">
                     <h1 className='text-4xl font-semibold py-2'>Get Started Now!</h1>
                     <p className='text-xl mt-4'>Reliable, Simple, Innovative. Join millions who have already traded with Margin 1.</p>
                 </div>
@@ -16,8 +16,8 @@ const CopyTopInvestors = () => {
                     <input type="text" placeholder='Full Name' className='border border-1 w-full px-4 py-3 rounded-sm' />
                     <input type="email" placeholder='Email' className='border border-1 w-full px-4 py-3 rounded-sm mt-4' />
                     <div className='flex gap-3 mt-4'>
-                        <input type="number" placeholder='(+111)' className='border border-1 w-full px-4 py-2 rounded-sm' />
-                        <input type="number" placeholder='Phone Number' className='border border-1 w-full px-4 py-2 rounded-sm' />
+                        <input type="number" placeholder='(+111)' className='flex-1 border border-1 w-full px-4 py-2 rounded-sm' />
+                        <input type="number" placeholder='Phone Number' className='flex-0.5 border border-1 w-full px-4 py-2 rounded-sm' />
                     </div>
                     <div className='flex items-start gap-3 mt-6'>
                         <input type="checkbox" className='w-6 h-6' checked />

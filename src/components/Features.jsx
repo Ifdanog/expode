@@ -10,7 +10,7 @@ const Features = () => {
         <div className="w-[80%] md:w-[4 0%] mx-auto text-center">
             <h1 className='text-4xl inter font-semibold py-4'>Elevate Your Trading Experience</h1>
         </div>
-        <div className="flex gap-6">
+        <div className="w-3/4 md:w-full mx-auto flex flex-col md:flex-row gap-6">
             <div className="bg-[#f8f8f8] px-4 py-10">
                 <div>
                     <div className="text-center">
