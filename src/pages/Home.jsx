@@ -1,6 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import Features from "../components/Features";
 import Services from "../components/Services";
 import GlobalMarkets from "../components/GlobalMarkets";
@@ -45,7 +43,7 @@ function App() {
 
   return (
     <div className="px-0 md:px-4">
-      {/* <div className="relative-container">
+      <div className="relative-container">
       <div className="ripple-container">
       <span
             style={{
@@ -65,15 +63,13 @@ function App() {
           ></span>
         ))}
       </div>
-    </div> */}
-      <Navbar />
+    </div>
       <Hero />
       <Features />
       <Services />
       <TradeOnMobile />
       <GlobalMarkets />
       <CopyTopInvestors />
-      <Footer/>
     </div>
   )
 }
