@@ -1,33 +1,35 @@
-import ArrowRight from '../assets/arrow-right.svg'
 
 const Services = () => {
   return (
-    <div className='bg-[#F7F7F7] py-20'>
-        <div className="w-[80%] md:w-[30%] mx-auto text-center">
-            <h1 className='text-2xl borna'>One service, all platforms</h1>
-            <p className='text-[#5A5A5D] text-xs py-6'>We're proud to offer you unified experience - one service, availableon all platforms. Whether you're on your desktop, smartphone, or tablet, we've got you covered.</p>
-        </div>
-        <div className="w-[60%] grid grid-cols-1 md:grid-cols-2 gap-x-[5rem] gap-y-[4rem] mx-auto">
+    <div>
+        <div className="flex">
+            <div></div>
             <div>
-                <span className='text-xs'><b>Real-Time Market.</b>Data Access up-to-the-minute market data. live price quotes, and in-depth charts to make informed decisions.</span>
+                <p className='w-[20%] md:w-full text-center md:text-left mx-auto bg-[#f8f8f8] text-xs py-6'>EXPODE ADVANTAGE</p>
+                <h1 className='text-4xl inter font-semibold py-4'>Empowering Traders for Success.</h1>
             </div>
-            <div>
-                <span className='text-xs'><b>Advanced Charting.</b>Utilize advancing charting tools with customizable indicators, patterns, and timeframes for comprehensive technical analysis.</span>
-            </div>
-            <div>
-                <span className='text-xs'><b>One-Click Trading.</b>Execute order swiftly with one-click trading, reducing latency and ensuring you don't mis crucial market movements.</span>
-            </div>
-            <div>
-                <span className='text-xs'><b>News and Alerts.</b>Stay informed with real-time news feeds and customizable alerts to react swiftly to market events.</span>
-            </div>
-        </div>
-        <div className="text-center mt-20">
-            <button className='bg-[#1d2123] py-4 px-8 text-white group rounded-md mx-auto'>
-                <span className='text-sm'>Start Trading Now</span>
-                <img src={ArrowRight} alt="" className='inline h-4 ml-2 group-hover:ml-3'/>
-            </button>
         </div>
     </div>
+    // <div className="flex">
+    //     <div className="flex-1"></div>
+    //     <div className='py-20 flex-1'>
+    //     <p className='w-[20%] md:w-full text-center md:text-left mx-auto bg-[#f8f8f8] text-xs py-6'>EXPODE ADVANTAGE</p>
+    //     <div className="w-full mx-auto text-center md:text-left">
+    //         <h1 className='text-4xl inter font-semibold py-4'>Empowering Traders for Success.</h1>
+    //     </div>
+    //     <div>
+    //         <p className="text-xl pb-4">
+    //         Expode opens doors to a world of trading opportunities. Let your potential soar as you explore diverse markets with our platform.
+    //         </p>
+    //         <p className="text-xl pb-4">
+    //         Achieve precision in your CFD trading endeavors with Margin1's powerful tools. Make informed decisions and seize every trading moment.
+    //         </p>
+    //         <button className='bg-[#1d2123] py-4 px-8 mt-8 text-white group'>
+    //             <span className='text-sm'>Get Started</span>
+    //         </button>
+    //     </div>
+    // </div>
+    // </div>
   )
 }
 

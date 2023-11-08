@@ -1,5 +1,4 @@
 import Copy from '../assets/Group 3.png'
-import ArrowRight from '../assets/arrow-right.svg'
 
 const CopyTopInvestors = () => {
   return (
@@ -18,7 +17,6 @@ const CopyTopInvestors = () => {
 
                 <button className='bg-[#1d2123] py-4 px-8 text-white group duration-200 transition rounded-md'>
                     <span className='text-sm'>Start Trading Now</span>
-                    <img src={ArrowRight} alt="" className='inline h-4 ml-2 group-hover:ml-3'/>
                 </button>
 
             </div>

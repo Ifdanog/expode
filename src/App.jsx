@@ -46,9 +46,7 @@ function App() {
 
   return (
     <div className="px-0 md:px-4">
-      <div className="relative-container">
-      {/* Your React App content */}
-      {/* Container for the ripple effect */}
+      {/* <div className="relative-container">
       <div className="ripple-container">
       <span
             style={{
@@ -68,13 +66,13 @@ function App() {
           ></span>
         ))}
       </div>
-    </div>
+    </div> */}
       <Navbar />
       <Hero />
       <Features />
       <Services />
-      <GlobalMarkets />
       <TradeOnMobile />
+      <GlobalMarkets />
       <CopyTopInvestors />
       <Sponsor />
       <Footer/>
