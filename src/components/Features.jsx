@@ -1,14 +1,9 @@
-import innovative from '../assets/innovative.svg'
-import mobile from '../assets/mobile.svg'
-import user from '../assets/user.svg'
-import Tick from '../assets/Vector.svg'
-
 const Features = () => {
   return (
     <div className='py-20'>
             <p className='w-[10%] text-center mx-auto bg-[#f8f8f8] text-xs py-6 text-[#0057ff] font-semibold tracking-widest'>WHY EXPODE</p>
         <div className="w-[80%] md:w-[4 0%] mx-auto text-center">
-            <h1 className='text-4xl inter font-semibold py-4'>Elevate Your Trading Experience</h1>
+            <h1 className='text-2xl md:text-4xl inter font-semibold py-4'>Elevate Your Trading Experience</h1>
         </div>
         <div className="w-3/4 md:w-full mx-auto flex flex-col md:flex-row gap-6">
             <div className="bg-[#f8f8f8] px-4 py-10">
@@ -20,7 +15,7 @@ const Features = () => {
                     </div>
                     <div className="text-center">
                         <h3 className='font-bold text-xl mb-3'>Innovative CFD Trading</h3>
-                        <p className='text-lg'>At Expode, we embrace innovation to bring you cutting-edge CFD trading tools. Say goodbye to the ordinary and dive into a world of limitless possibilities.</p>
+                        <p className='text-normal md:text-lg'>At Expode, we embrace innovation to bring you cutting-edge CFD trading tools. Say goodbye to the ordinary and dive into a world of limitless possibilities.</p>
                     </div>
                 </div>
             </div>
@@ -33,7 +28,7 @@ const Features = () => {
                     </div>
                     <div className="text-center">
                         <h3 className='font-bold text-xl mb-3'>User-Friendly Interface</h3>
-                        <p className='text-lg'>Our platform's user-friendly design ensures that everyone can trade with confidence. It's trading made accessible without the complexities of Metatrader 4 and 5.</p>
+                        <p className='text-normal md:text-lg'>Our platform's user-friendly design ensures that everyone can trade with confidence. It's trading made accessible without the complexities of Metatrader 4 and 5.</p>
                     </div>
                 </div>
             </div>
@@ -46,7 +41,7 @@ const Features = () => {
                     </div>
                 <div className="text-center">
                     <h3 className='font-bold text-xl mb-3'>Mobile Excellence</h3>
-                    <p className='text-lg'>Life moves fast, and so should your trading. With Expode's mobile web and app, you can trade on the go. Stay connected to the markets anytime and anywhere.</p>
+                    <p className='text-normal md:text-lg'>Life moves fast, and so should your trading. With Expode's mobile web and app, you can trade on the go. Stay connected to the markets anytime and anywhere.</p>
                 </div>
             </div>
         </div>

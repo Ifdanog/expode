@@ -8,16 +8,16 @@ const TradeOnMobile = () => {
         <div className='block md:flex justify-between w-full bg-[#f8f8f8] gap-10 px-20 py-20'>
             <div className='flex-1'>
             <p className='w-[20%] md:w-full text-center md:text-left mx-auto text-xs py-6 text-[#0057ff] font-semibold tracking-widest'>STAY CONNECTED</p>
-            <h1 className='w-[95%] text-5xl leading-[3.5rem] inter font-semibold py-4 text-center md:text-left'>Seamlessly Trade on Mobile, Wherever You Are</h1>
-              <p className='text-xl'>Don't miss a beat – trade on both mobile web and our app. Keep your finger on the pulse of the markets, even while on the move.</p>
+            <h1 className='w-[95%] text-3xl md:text-5xl md:leading-[3.5rem] inter font-semibold py-4 text-center md:text-left'>Seamlessly Trade on Mobile, Wherever You Are</h1>
+              <p className='text-normal md:text-xl'>Don't miss a beat – trade on both mobile web and our app. Keep your finger on the pulse of the markets, even while on the move.</p>
               <div className='flex md:block'>
                 <div className='w-full mx-auto md:mx-0 flex gap-2'>
                   <img src={Tick} alt="" className='w-4' />
-                  <span className='text-xl leading-10'>Mobile Web & App</span>
+                  <span className='text-normal md:text-xl leading-10'>Mobile Web & App</span>
                 </div>
                 <div className='w-full mx-auto md:mx-0 flex gap-2'>
                 <img src={Tick} alt="" className='w-4' />
-                  <span className='text-xl leading-10'>Real-time updates</span>
+                  <span className='text-normal md:text-xl leading-10'>Real-time updates</span>
                 </div>
               </div>
 

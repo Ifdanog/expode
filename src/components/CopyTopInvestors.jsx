@@ -7,7 +7,7 @@ const CopyTopInvestors = () => {
             <div className="flex-1 justify-center items-center">
                 <div className="text-white text-center md:text-left">
                     <h1 className='text-4xl font-semibold py-2'>Get Started Now!</h1>
-                    <p className='text-xl mt-4'>Reliable, Simple, Innovative. Join millions who have already traded with Margin 1.</p>
+                    <p className='text-normal md:text-xl mt-4'>Reliable, Simple, Innovative. Join millions who have already traded with Margin 1.</p>
                 </div>
             </div>
             <div className="flex-1">
@@ -21,13 +21,13 @@ const CopyTopInvestors = () => {
                     </div>
                     <div className='flex items-start gap-3 mt-6'>
                         <input type="checkbox" className='w-6 h-6' checked />
-                        <p className='text-sm'>I agree to Expode Terms of Use and confirm that I am over 18 years of age. Privacy Policy</p>
+                        <p className='text-xs md:text-sm'>I agree to Expode Terms of Use and confirm that I am over 18 years of age. Privacy Policy</p>
                     </div>
                     <button className='w-full rounded-md bg-[#1d2123] py-4 px-8 mt-8 text-white group'>
-                        <span className='text-sm'>Get Started</span>
+                        <span className='text-xs md:text-sm'>Get Started</span>
                     </button>
-                    <p className='text-sm mt-6 text-center'>Have an account? <a href="#">Login</a></p>
-                    <p className='text-sm mt-4 text-center text-[#ddd]'>All trading involves risk. Only risk capital you're prepared to lose.</p>
+                    <p className='text-xs md:text-sm mt-6 text-center'>Have an account? <a href="#">Login</a></p>
+                    <p className='text-xs md:text-sm mt-4 text-center text-[#ddd]'>All trading involves risk. Only risk capital you're prepared to lose.</p>
                 </form>
             </div>
         </div>

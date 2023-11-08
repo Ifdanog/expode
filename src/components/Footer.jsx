@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-wrap gap-6 md:gap-0 xl:max-w-[1024px] 2xl:max-w-[1280px] mx-auto justify-between mt-10'>
-        <p className=''>Copyright &copy; 2023 Expode</p>
+        <p className='text-sm md:text-normal'>Copyright &copy; 2023 Expode</p>
         <div className='flex gap-3'>
           <img src={Facebook} alt="" className='h-6' />
           <img src={Twitter} alt="" className='h-6' />
@@ -21,8 +21,8 @@ const Footer = () => {
           <img src={Youtube} alt="" className='h-6' />
         </div>
         <ul className='flex gap-4'>
-          <li>Privacy Policy</li>
-          <li>Terms & Conditions</li>
+          <li  className='text-sm md:text-normal'>Privacy Policy</li>
+          <li  className='text-sm md:text-normal'>Terms & Conditions</li>
         </ul>
       </div>
 
